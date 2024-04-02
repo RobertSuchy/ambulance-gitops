@@ -5,6 +5,10 @@ images:
   newName: robertsuchy/ambulance-ufe
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
+- name: robertsuchy/xsuchy-ambulance
+  newName: robertsuchy/xsuchy-ambulance
+  newTag: 1.0.0 
+
 replacements:
  - targets:
    - select:
