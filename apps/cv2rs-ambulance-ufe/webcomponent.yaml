@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: cv2rs-ambulance-wl-list    # element, ktorý bude vložený na stránku
+    - element: cv2rs-ambulance-wl-app    # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
       path: cv2rs-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam čakajúcich cv2rs      # názov mikro aplikácie
