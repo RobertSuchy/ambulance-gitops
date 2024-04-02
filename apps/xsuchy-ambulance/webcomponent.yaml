@@ -15,7 +15,7 @@ spec:
       - name: ambulance-id
         value: bobulova                                    
       path: xsuchy-ambulance        # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: Sleodvanie presuvno xsuchy      # názov mikro aplikácie
+      title: Sledovanie presunov xsuchy      # názov mikro aplikácie
       details: Spravuje zoznam pacientov presúvaných medzi ambulanciami
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
