@@ -7,8 +7,8 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: xsuchy-ambulance     # element, ktorý bude vložený na stránku
-                                    # pri navigácii na zoznam čakajúcich
+    - element: cv2rs-ambulance-presuny    # element, ktorý bude vložený na stránku
+                                          # pri navigácii na zoznam čakajúcich
       attributes:
       - name: api-base
         value: http://localhost:5000/api
@@ -20,6 +20,6 @@ spec:
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
-  hash-suffix: v1alpha1             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+  hash-suffix: v1alpha2             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
                                     # sa mení názov URL pre modul a tým je možné predísť problémom
                                     # s verziami vo vyrovnávacích pamätiach
