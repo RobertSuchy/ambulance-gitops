@@ -11,6 +11,8 @@ resources:
  - cd.kustomization.yaml
  - install.kustomization.yaml
  - git-repository.yaml
+ - xsuchy-ambulance.image-repository.yaml
+ - xsuchy-ambulance.image-policy.yaml
  - ambulance-ufe.image-repository.yaml
  - ambulance-ufe.image-policy.yaml
  - ambulance-webapi.image-repository.yaml
