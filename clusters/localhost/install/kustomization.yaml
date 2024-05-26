@@ -11,6 +11,11 @@ commonLabels:
 resources:
 - ../../../apps/cv2rs-ambulance-ufe
 - ../../../apps/xsuchy-ambulance
+- ../../../apps/cv2rs-ambulance-webapi
 
 components:
  - ../../../components/version-developers
+ - https://github.com/RobertSuchy/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/ambulance-webapi.service.yaml
