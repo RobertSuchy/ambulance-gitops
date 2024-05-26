@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: xsuchy-ambulance-presuny    # element, ktorý bude vložený na stránku
+    - element: xsuchy-ambulance    # element, ktorý bude vložený na stránku
                                           # pri navigácii na zoznam čakajúcich
       attributes:
       - name: api-base
